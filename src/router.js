@@ -22,6 +22,11 @@ export default new Router({
       path: '/wheel',
       name: 'wheel',
       component: () => import(/* webpackChunkName: "about" */ './views/Wheel/Wheel.vue')
+    },
+    {
+      path: '/slider',
+      name: 'slider',
+      component: () => import(/* webpackChunkName: "about" */ './views/Slider/Slider.vue')
     }
   ]
 })
